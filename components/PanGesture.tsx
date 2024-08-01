@@ -15,7 +15,7 @@ const SIZE = 100;
 const CIRCLE_RADIUS = SIZE * 2;
 const { width, height } = Dimensions.get('screen');
 
-function clamp(val: number, min: number, max: number) {
+function clamp(val, min, max) {
   return Math.min(Math.max(val, min), max);
 }
 
@@ -47,14 +47,14 @@ const PanGesture = () => {
     })
     .onEnd(() => {
       const distance = Math.sqrt(
-        translationX.value ** 2 + translationY.value ** 2 - CIRCLE_RADIUS
+        translationX.value ** 2 + translationY.value ** 2
       );
       if (distance < CIRCLE_RADIUS + SIZE / 2) {
         translationX.value = withSpring(0);
         translationY.value = withSpring(0);
       }
     })
-    .runOnJS(false);
+    .runOnJS(true);
 
   const rStyle = useAnimatedStyle(() => {
     return {
