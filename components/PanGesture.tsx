@@ -15,7 +15,7 @@ const SIZE = 100;
 const CIRCLE_RADIUS = SIZE * 2;
 const { width, height } = Dimensions.get('screen');
 
-function clamp(val, min, max) {
+function clamp(val: number, min: number, max: number) {
   return Math.min(Math.max(val, min), max);
 }
 
