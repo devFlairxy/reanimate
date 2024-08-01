@@ -1,11 +1,15 @@
 import Intro from '@/components/Intro';
+import PanGesture from '@/components/PanGesture';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Intro />
+      {/* <Intro /> */}
+
+      {/* Pan Gestur Basics  */}
+      <PanGesture /> 
     </View>
   );
 }
