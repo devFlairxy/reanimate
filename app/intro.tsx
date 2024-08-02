@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import React, { useEffect } from 'react';
 import Animated, {
   SharedValue,
@@ -33,7 +33,7 @@ const Intro = () => {
     scale.value = withRepeat(withSpring(1), 3, true);
   }, []);
   return (
-    <View>
+    <View style={styles.container}>
       <Animated.View
         style={[
           { width: SIZE, height: SIZE, backgroundColor: 'blue' },
@@ -43,5 +43,12 @@ const Intro = () => {
     </View>
   );
 };
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
 
 export default Intro;
