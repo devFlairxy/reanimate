@@ -11,6 +11,7 @@ export default function Index() {
       <Link style={styles.link} href="/interpolateScrollview">Interpolate with ScrollView</Link>
       <Link style={styles.link} href="/interpolateColors">Interpolate Colors (Theme Animation)</Link>
       <Link style={styles.link} href="/pinchGesture"> Pinch Gesture (Image Zoom) </Link>
+      <Link style={styles.link} href="/tapGesture"> Tap & Double Tap(Instagram Like) </Link>
     </View>
   );
 }

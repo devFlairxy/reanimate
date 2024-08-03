@@ -12,6 +12,7 @@ export default function RootLayout() {
       />
       <Stack.Screen name="interpolateColors" options={{ headerShown: false }} />
       <Stack.Screen name="pinchGesture" options={{ headerShown: false }} />
+      <Stack.Screen name="tapGesture" options={{ headerShown: false }} />
     </Stack>
   );
 }
