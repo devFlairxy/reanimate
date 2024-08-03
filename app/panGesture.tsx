@@ -25,7 +25,7 @@ const PanGesture = () => {
   const prevTranslationX = useSharedValue(0);
   const prevTranslationY = useSharedValue(0);
 
-  const panGesture = Gesture.Pan()
+  const pan = Gesture.Pan()
     .minDistance(1)
     .onStart(() => {
       prevTranslationX.value = translationX.value;
@@ -72,7 +72,7 @@ const PanGesture = () => {
     <>
       <GestureHandlerRootView style={styles.container}>
         <View style={styles.circle}>
-          <GestureDetector gesture={panGesture}>
+          <GestureDetector gesture={pan}>
             <Animated.View style={[styles.square, rStyle]} />
           </GestureDetector>
         </View>

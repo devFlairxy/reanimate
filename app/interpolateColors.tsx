@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.1,
     shadowRadius: 10,
-    elevation: 8,
+    elevation: 8,  //for android
   },
   text: {
     fontSize: 70,
