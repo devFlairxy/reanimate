@@ -9,6 +9,7 @@ export default function Index() {
       <Link style={styles.link} href="/intro">Basic</Link>
       <Link style={styles.link} href="/panGesture">Pan Gesture</Link>
       <Link style={styles.link} href="/interpolateScrollview">Interpolate with ScrollView</Link>
+      <Link style={styles.link} href="/interpolateColors">Interpolate Colors (Theme Animation)</Link>
     </View>
   );
 }

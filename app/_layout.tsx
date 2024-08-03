@@ -11,6 +11,8 @@ export default function RootLayout() {
       <Stack.Screen name="intro" options={{ headerTitle: 'Basic Animation' }} />
       <Stack.Screen name="interpolateScrollview" options={{ headerShown: false }}
       />
+       <Stack.Screen name="interpolateColors" options={{ headerShown: false }}
+      />
     </Stack>
   );
 }
