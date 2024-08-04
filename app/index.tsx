@@ -15,6 +15,7 @@ export default function Index() {
       <Link style={styles.link} href="/scrollView"> ScrollView from scratch with Pan Gesture </Link>
       <Link style={styles.link} href="/circularProgressBar"> Circlular Progress Bar</Link>
       <Link style={styles.link} href="/swipeToDelete"> Swipe to delete</Link>
+      <Link style={styles.link} href="/rippleEffect"> Ripple Effect</Link>
     </View>
   );
 }
