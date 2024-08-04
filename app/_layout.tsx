@@ -15,6 +15,7 @@ export default function RootLayout() {
       <Stack.Screen name="tapGesture" options={{ headerShown: false }} />
       <Stack.Screen name="scrollView" options={{ headerShown: false }} />
       <Stack.Screen name="circularProgressBar" options={{ headerShown: false }} />
+      <Stack.Screen name="swipeToDelete" options={{ headerShown: false }} />
     </Stack>
   );
 }
