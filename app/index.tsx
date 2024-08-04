@@ -12,6 +12,7 @@ export default function Index() {
       <Link style={styles.link} href="/interpolateColors">Interpolate Colors (Theme Animation)</Link>
       <Link style={styles.link} href="/pinchGesture"> Pinch Gesture (Image Zoom) </Link>
       <Link style={styles.link} href="/tapGesture"> Tap & Double Tap(Instagram Like) </Link>
+      <Link style={styles.link} href="/scrollView"> ScrollView from scratch with Pan Gesture </Link>
     </View>
   );
 }
@@ -24,6 +25,7 @@ const styles = StyleSheet.create({
   },
   link: {
     color: 'rgba(0, 0, 256, 0.5)',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    margin: 5
   }
 });
