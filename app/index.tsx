@@ -16,6 +16,7 @@ export default function Index() {
       <Link style={styles.link} href="/circularProgressBar"> Circlular Progress Bar</Link>
       <Link style={styles.link} href="/swipeToDelete"> Swipe to delete</Link>
       <Link style={styles.link} href="/rippleEffect"> Ripple Effect</Link>
+      <Link style={styles.link} href="/clockLoader"> Clock Loader</Link>
     </View>
   );
 }

@@ -17,6 +17,7 @@ export default function RootLayout() {
       <Stack.Screen name="circularProgressBar" options={{ headerShown: false }} />
       <Stack.Screen name="swipeToDelete" options={{ headerShown: false }} />
       <Stack.Screen name="rippleEffect" options={{ headerShown: false }} />
+      <Stack.Screen name="clockLoader" options={{ headerShown: false }} />
     </Stack>
   );
 }
