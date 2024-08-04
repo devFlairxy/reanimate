@@ -13,6 +13,7 @@ export default function Index() {
       <Link style={styles.link} href="/pinchGesture"> Pinch Gesture (Image Zoom) </Link>
       <Link style={styles.link} href="/tapGesture"> Tap & Double Tap(Instagram Like) </Link>
       <Link style={styles.link} href="/scrollView"> ScrollView from scratch with Pan Gesture </Link>
+      <Link style={styles.link} href="/circularProgressBar"> Circlular Progress Bar</Link>
     </View>
   );
 }
