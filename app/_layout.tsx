@@ -19,6 +19,7 @@ export default function RootLayout() {
       <Stack.Screen name="rippleEffect" options={{ headerShown: false }} />
       <Stack.Screen name="clockLoader" options={{ headerShown: false }} />
       <Stack.Screen name="layoutAnimation" options={{ headerShown: false }} />
+      <Stack.Screen name="animatedFlatlist" options={{ headerShown: false }} />
     </Stack>
   );
 }
