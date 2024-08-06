@@ -20,6 +20,7 @@ export default function RootLayout() {
       <Stack.Screen name="clockLoader" options={{ headerShown: false }} />
       <Stack.Screen name="layoutAnimation" options={{ headerShown: false }} />
       <Stack.Screen name="animatedFlatlist" options={{ headerShown: false }} />
+      <Stack.Screen name="dropdownAnimation" options={{ headerShown: false }} />
     </Stack>
   );
 }

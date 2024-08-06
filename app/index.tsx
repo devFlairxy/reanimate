@@ -19,6 +19,7 @@ export default function Index() {
       <Link style={styles.link} href="/clockLoader"> Clock Loader</Link>
       <Link style={styles.link} href="/layoutAnimation"> Animated Layout</Link>
       <Link style={styles.link} href="/animatedFlatlist"> Animated Flatlist</Link>
+      <Link style={styles.link} href="/dropdownAnimation"> Drop Down</Link>
     </View>
   );
 }
