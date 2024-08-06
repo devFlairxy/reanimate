@@ -21,6 +21,7 @@ export default function Index() {
       <Link style={styles.link} href="/animatedFlatlist"> Animated Flatlist</Link>
       <Link style={styles.link} href="/dropdownAnimation"> Drop Down</Link>
       <Link style={styles.link} href="/circularCarousel"> Circular Carousel</Link>
+      <Link style={styles.link} href="/skeletonAnimation"> Skeleton Animation (moti)</Link>
     </View>
   );
 }
