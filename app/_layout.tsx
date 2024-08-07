@@ -23,6 +23,7 @@ export default function RootLayout() {
       <Stack.Screen name="dropdownAnimation" options={{ headerShown: false }} />
       <Stack.Screen name="circularCarousel" options={{ headerShown: false }} />
       <Stack.Screen name="skeletonAnimation" options={{ headerShown: false }} />
+      <Stack.Screen name="segmentedControl" options={{ headerShown: false }} />
     </Stack>
   );
 }

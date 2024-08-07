@@ -22,6 +22,7 @@ export default function Index() {
       <Link style={styles.link} href="/dropdownAnimation"> Drop Down</Link>
       <Link style={styles.link} href="/circularCarousel"> Circular Carousel</Link>
       <Link style={styles.link} href="/skeletonAnimation"> Skeleton Animation (moti)</Link>
+      <Link style={styles.link} href="/segmentedControl"> Segmented Control (Tabs)</Link>
     </View>
   );
 }
