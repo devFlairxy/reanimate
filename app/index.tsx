@@ -25,6 +25,7 @@ export default function Index() {
       <Link style={styles.link} href="/segmentedControl"> Segmented Control (Tabs)</Link>
       <Link style={styles.link} href="/shake"> Animated Shake</Link>
       <Link style={styles.link} href="/stackedCards"> Stacked Cards </Link>
+      <Link style={styles.link} href="/story"> Story List</Link>
     </View>
   );
 }
